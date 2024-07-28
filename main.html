@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Asset Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Digital Asset Manager</h1>
+    <div id="login">
+        <a href="https://digitalassetmanager.auth.us-east-1.amazoncognito.com/login?client_id=1et1jdlojt08ha7ejt5kqkae81&response_type=token&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fdam.com">
+            Login with Amazon Cognito
+        </a>
+    </div>
+    <div id="main" style="display: none;">
+        <div>
+            <button onclick="getAssets()">List Assets</button>
+            <button onclick="showAddAssetForm()">Add Asset</button>
+            <button onclick="getUsers()">List Users</button>
+        </div>
+        <div id="assetList"></div>
+        <div id="addAssetForm" style="display: none;">
+            <h2>Add Asset</h2>
+            <input type="file" id="fileInput"><br>
+            <input type="text" id="assetName" placeholder="Asset Name"><br>
+            <input type="text" id="assetType" placeholder="Asset Type"><br>
+            <textarea id="assetComments" placeholder="Comments"></textarea><br>
+            <button onclick="addAsset()">Upload</button>
+        </div>
+        <div id="userList"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
