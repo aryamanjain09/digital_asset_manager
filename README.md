@@ -2,7 +2,7 @@ Digital Asset Manager
 
 Problem Statement/requirements - 
 Users login,
-store digital assets
+store digital assets,
 CRUD on digital assets,
 Share resources with other users
 
