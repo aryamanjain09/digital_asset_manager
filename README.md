@@ -1,9 +1,10 @@
 Digital Asset Manager
 
 Problem Statement/requirements - 
-Users login
-CRUD on assets
-Share resource with other users
+Users login,
+store digital assets
+CRUD on digital assets,
+Share resources with other users
 
 
 API calls:
