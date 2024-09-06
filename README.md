@@ -1,9 +1,13 @@
 Digital Asset Manager (Code is proprietary)
 
+Project Description - 
+• Built an IaaS product – ‘Research Service Workbench’ that enables on-demand AWS infrastructure management by IT teams to provide secure and scalable access to cloud resources for researchers and analysts. 
+• Utilized a suite of AWS services, including AWS API Gateway, Lambda, DynamoDB, S3, Service Catalog, SNS, Cost Explorer, WAF, and AWS Cognito.
+
 Problem Statement/requirements - 
 Users login,
 store digital assets,
-CRUD on digital assets,
+perform CRUD on digital assets,
 Share resources with other users
 
 
