@@ -1,4 +1,4 @@
-Digital Asset Manager
+Digital Asset Manager (Code is proprietary)
 
 Problem Statement/requirements - 
 Users login,
